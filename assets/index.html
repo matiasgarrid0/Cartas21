@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Cartas21</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <h1 class="titulo">
+            Cartas 21
+        </h1>
+
+    </header>
+    <section id="botones" class="seccion-botones">
+        <button id="btnPedir" class="boton">Pedir Carta</button>
+        <button id="btnDetener" class="boton">Detener</button>
+        <button id="btnNuevo" class="boton">Nuevo Juego</button>
+    </section>
+    <main class="cartas">
+        <div class="jugador">
+            <div class="jugador1">
+                <h2>Jugador - <small>0</small></h2>
+            </div>
+            <div id="jugador-cartas">
+                <!-- <img class="carta" src="cartas/10C.png" alt=""> -->
+
+            </div>
+        </div>
+        <div class="computadora">
+            <div class="computadora1">
+                <h2>Computadora - <small>0</small></h2>
+            </div>
+            <div id="computadora-cartas">
+                <!-- <img class="carta" src="cartas/3C.png" alt=""> -->
+
+            </div>
+        </div>
+    </main>
+    <div class="parrafo">
+        <p>Debes llegar a 21 o acercarte lo máximo posible a ese número para ganarle a la computadora.</p>
+        <p>Si tus puntos son mayores a 21 y los puntos de la computadora son menores o iguales a 21, la computadora gana.</p>
+    </div>
+
+
+
+    <footer class="footer">
+        <div>
+            <p>Todos los derechos reservados-2021</p>
+        </div>
+    </footer>
+    <script src="js/underscore-min.js"></script>
+    <script src="js/juego.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    min-width: 100%;
+}
+
+
+/*Header*/
+
+.site-header {
+    display: block;
+    align-items: center;
+    background-image: url(../img/black2.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .site-header {
+        background-image: url(../img/black2.jpg);
+        background-position: center center;
+        background-size: cover;
+        height: 100vh;
+        max-height: 17rem;
+        padding: 1rem;
+    }
+}
+
+.titulo {
+    color: black;
+    font-size: 8rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border: none;
+    flex: 0 0 100%;
+    display: inline-block;
+}
+
+
+/*Botones*/
+
+.seccion.botones {
+    display: block;
+    align-items: center;
+}
+
+@media (min-width: 468px) {
+    .seccion-botones {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2rem;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+}
+
+.boton {
+    background-color: #0797a7;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 0.5rem 0.5rem;
+    margin: 1rem 1rem 1rem 1rem;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background-color .4s ease;
+    border: solid 1px #0797a7;
+}
+
+.boton:hover {
+    background-color: #ffffff;
+    color: #0797a7;
+    border: solid 1px #0797a7;
+    cursor: pointer;
+}
+
+
+/*Cartas y Jugadores*/
+
+.cartas {
+    margin-top: 1rem;
+}
+
+.jugador1 {
+    display: flex;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.jugador {
+    margin-top: 0rem;
+}
+
+.computadora1 {
+    margin-left: 4rem;
+    font-size: 1.2rem;
+}
+
+.carta {
+    position: relative;
+    width: 10rem;
+    left: 10rem;
+    margin-left: -6rem;
+}
+
+#computadora-cartas,
+#jugador-cartas {
+    height: 16rem;
+}
+
+.footer {
+    background-color: #0797a7;
+    padding: 0.3rem;
+    color: white;
+}
+
+.footer p {
+    margin-left: 2rem;
+}
+
+
+/*Párrafo*/
+
+.parrafo {
+    margin: 1rem;
+    font-size: 1.2rem;
+}
